@@ -1,7 +1,7 @@
 # Weather
 Provides a temperature API that returns the maximum, minimum, average and median temperature forecast in Celcius for a city within a number of days
 
-![alt text](https://github.com/mwangistan/static/temp.png)
+![alt text](https://github.com/mwangistan/weather/blob/main/static/temp.png)
 
 ### Prerequisites
 ```
