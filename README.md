@@ -36,6 +36,12 @@ Where the
 {number_of_days} = number of days of forecast required. 
 **Days should range between 1 and 10**
 
+## Running tests
+To run the unit tests
+```
+python manage.py test
+```
+
 
 ## API Errors
 If there is an error, the API response contains the error message and status code

@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'apps.api'
 ]
 
 MIDDLEWARE = [
@@ -118,3 +120,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# ===========
+# Weather api settings https://www.weatherapi.com
+# ===========
+
+WEATHER_API_URL_V1 = 'https://api.weatherapi.com/v1/forecast.json'
+WEATHER_API_KEY = 'b666208e9786432591a81323211502'
