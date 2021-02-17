@@ -6,6 +6,7 @@ Temperature API that returns the maximum, minimum, average and median temperatur
 ### Prerequisites
 ```
 python 3.6.9
+virtualenv
 ```
 
 ### Installation
@@ -15,7 +16,18 @@ python 3.6.9
 git clone https://github.com/mwangistan/weather.git
 ```
 
-2. Install project requirements located in the repo's requirements.txt file
+2. Cd to the project directory
+```
+cd weather
+```
+
+3. Create a virtualenv and activate it
+```
+virtualenv -p python3 .env
+source .env/bin/activate
+```
+
+4. Install project requirements located in the repo's requirements.txt file in the virtual environment
 ```
 pip3 install -r requirements.txt
 ```
