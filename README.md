@@ -1,5 +1,5 @@
 # Weather
-Provides a temperature API that returns the maximum, minimum, average and median temperature forecast in Celcius for a city within a number of days
+Temperature API that returns the maximum, minimum, average and median temperature forecast in Celcius for a city within a number of days
 
 ![alt text](https://github.com/mwangistan/weather/blob/main/static/temp.png)
 
@@ -16,7 +16,8 @@ git clone https://github.com/mwangistan/weather.git
 ```
 
 2. Install project requirements located in the repo's requirements.txt file
-```pip3 install -r requirements.txt
+```
+pip3 install -r requirements.txt
 ```
 
 ## Start the server
@@ -32,7 +33,8 @@ The API url is
 ```
 Where the 
 {city} = city name for which to get forecast data e.g Nairobi
-{number_of_days} = number of days of forecast required. Days should range between 1 and 10
+{number_of_days} = number of days of forecast required. 
+**Days should range between 1 and 10**
 
 
 ## API Errors
